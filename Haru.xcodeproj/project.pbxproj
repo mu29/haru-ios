@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C09A8AD61C17EBB6008E18CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */; };
+		C09A8AD81C17EBB6008E18CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AD71C17EBB6008E18CE /* ViewController.swift */; };
+		C09A8ADB1C17EBB6008E18CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A8AD91C17EBB6008E18CE /* Main.storyboard */; };
+		C09A8ADD1C17EBB6008E18CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */; };
+		C09A8AE01C17EBB6008E18CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A8ADE1C17EBB6008E18CE /* LaunchScreen.storyboard */; };
+		C09A8AEB1C17EBB6008E18CE /* HaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AEA1C17EBB6008E18CE /* HaruTests.swift */; };
+		C09A8AF61C17EBB6008E18CE /* HaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AF51C17EBB6008E18CE /* HaruUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C09A8AE71C17EBB6008E18CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09A8ACA1C17EBB6008E18CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09A8AD11C17EBB6008E18CE;
+			remoteInfo = Haru;
+		};
+		C09A8AF21C17EBB6008E18CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09A8ACA1C17EBB6008E18CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09A8AD11C17EBB6008E18CE;
+			remoteInfo = Haru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C09A8AD21C17EBB6008E18CE /* Haru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09A8AD71C17EBB6008E18CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09A8ADA1C17EBB6008E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09A8ADF1C17EBB6008E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C09A8AE11C17EBB6008E18CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09A8AE61C17EBB6008E18CE /* HaruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09A8AEA1C17EBB6008E18CE /* HaruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaruTests.swift; sourceTree = "<group>"; };
+		C09A8AEC1C17EBB6008E18CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09A8AF11C17EBB6008E18CE /* HaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09A8AF51C17EBB6008E18CE /* HaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaruUITests.swift; sourceTree = "<group>"; };
+		C09A8AF71C17EBB6008E18CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09A8ACF1C17EBB6008E18CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AE31C17EBB6008E18CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AEE1C17EBB6008E18CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09A8AC91C17EBB6008E18CE = {
+			isa = PBXGroup;
+			children = (
+				C09A8AD41C17EBB6008E18CE /* Haru */,
+				C09A8AE91C17EBB6008E18CE /* HaruTests */,
+				C09A8AF41C17EBB6008E18CE /* HaruUITests */,
+				C09A8AD31C17EBB6008E18CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09A8AD31C17EBB6008E18CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09A8AD21C17EBB6008E18CE /* Haru.app */,
+				C09A8AE61C17EBB6008E18CE /* HaruTests.xctest */,
+				C09A8AF11C17EBB6008E18CE /* HaruUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09A8AD41C17EBB6008E18CE /* Haru */ = {
+			isa = PBXGroup;
+			children = (
+				C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */,
+				C09A8AD71C17EBB6008E18CE /* ViewController.swift */,
+				C09A8AD91C17EBB6008E18CE /* Main.storyboard */,
+				C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */,
+				C09A8ADE1C17EBB6008E18CE /* LaunchScreen.storyboard */,
+				C09A8AE11C17EBB6008E18CE /* Info.plist */,
+			);
+			path = Haru;
+			sourceTree = "<group>";
+		};
+		C09A8AE91C17EBB6008E18CE /* HaruTests */ = {
+			isa = PBXGroup;
+			children = (
+				C09A8AEA1C17EBB6008E18CE /* HaruTests.swift */,
+				C09A8AEC1C17EBB6008E18CE /* Info.plist */,
+			);
+			path = HaruTests;
+			sourceTree = "<group>";
+		};
+		C09A8AF41C17EBB6008E18CE /* HaruUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C09A8AF51C17EBB6008E18CE /* HaruUITests.swift */,
+				C09A8AF71C17EBB6008E18CE /* Info.plist */,
+			);
+			path = HaruUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09A8AD11C17EBB6008E18CE /* Haru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09A8AFA1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "Haru" */;
+			buildPhases = (
+				C09A8ACE1C17EBB6008E18CE /* Sources */,
+				C09A8ACF1C17EBB6008E18CE /* Frameworks */,
+				C09A8AD01C17EBB6008E18CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haru;
+			productName = Haru;
+			productReference = C09A8AD21C17EBB6008E18CE /* Haru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C09A8AE51C17EBB6008E18CE /* HaruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09A8AFD1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruTests" */;
+			buildPhases = (
+				C09A8AE21C17EBB6008E18CE /* Sources */,
+				C09A8AE31C17EBB6008E18CE /* Frameworks */,
+				C09A8AE41C17EBB6008E18CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09A8AE81C17EBB6008E18CE /* PBXTargetDependency */,
+			);
+			name = HaruTests;
+			productName = HaruTests;
+			productReference = C09A8AE61C17EBB6008E18CE /* HaruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C09A8AF01C17EBB6008E18CE /* HaruUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09A8B001C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruUITests" */;
+			buildPhases = (
+				C09A8AED1C17EBB6008E18CE /* Sources */,
+				C09A8AEE1C17EBB6008E18CE /* Frameworks */,
+				C09A8AEF1C17EBB6008E18CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09A8AF31C17EBB6008E18CE /* PBXTargetDependency */,
+			);
+			name = HaruUITests;
+			productName = HaruUITests;
+			productReference = C09A8AF11C17EBB6008E18CE /* HaruUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09A8ACA1C17EBB6008E18CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Pedaling;
+				TargetAttributes = {
+					C09A8AD11C17EBB6008E18CE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C09A8AE51C17EBB6008E18CE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C09A8AD11C17EBB6008E18CE;
+					};
+					C09A8AF01C17EBB6008E18CE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C09A8AD11C17EBB6008E18CE;
+					};
+				};
+			};
+			buildConfigurationList = C09A8ACD1C17EBB6008E18CE /* Build configuration list for PBXProject "Haru" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09A8AC91C17EBB6008E18CE;
+			productRefGroup = C09A8AD31C17EBB6008E18CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09A8AD11C17EBB6008E18CE /* Haru */,
+				C09A8AE51C17EBB6008E18CE /* HaruTests */,
+				C09A8AF01C17EBB6008E18CE /* HaruUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09A8AD01C17EBB6008E18CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09A8AE01C17EBB6008E18CE /* LaunchScreen.storyboard in Resources */,
+				C09A8ADD1C17EBB6008E18CE /* Assets.xcassets in Resources */,
+				C09A8ADB1C17EBB6008E18CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AE41C17EBB6008E18CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AEF1C17EBB6008E18CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09A8ACE1C17EBB6008E18CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09A8AD81C17EBB6008E18CE /* ViewController.swift in Sources */,
+				C09A8AD61C17EBB6008E18CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AE21C17EBB6008E18CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09A8AEB1C17EBB6008E18CE /* HaruTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A8AED1C17EBB6008E18CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09A8AF61C17EBB6008E18CE /* HaruUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C09A8AE81C17EBB6008E18CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09A8AD11C17EBB6008E18CE /* Haru */;
+			targetProxy = C09A8AE71C17EBB6008E18CE /* PBXContainerItemProxy */;
+		};
+		C09A8AF31C17EBB6008E18CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09A8AD11C17EBB6008E18CE /* Haru */;
+			targetProxy = C09A8AF21C17EBB6008E18CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C09A8AD91C17EBB6008E18CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09A8ADA1C17EBB6008E18CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C09A8ADE1C17EBB6008E18CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09A8ADF1C17EBB6008E18CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C09A8AF81C17EBB6008E18CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09A8AF91C17EBB6008E18CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09A8AFB1C17EBB6008E18CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.Haru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C09A8AFC1C17EBB6008E18CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Haru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.Haru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C09A8AFE1C17EBB6008E18CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.HaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haru.app/Haru";
+			};
+			name = Debug;
+		};
+		C09A8AFF1C17EBB6008E18CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.HaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haru.app/Haru";
+			};
+			name = Release;
+		};
+		C09A8B011C17EBB6008E18CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.HaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Haru;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C09A8B021C17EBB6008E18CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.HaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Haru;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09A8ACD1C17EBB6008E18CE /* Build configuration list for PBXProject "Haru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09A8AF81C17EBB6008E18CE /* Debug */,
+				C09A8AF91C17EBB6008E18CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09A8AFA1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "Haru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09A8AFB1C17EBB6008E18CE /* Debug */,
+				C09A8AFC1C17EBB6008E18CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C09A8AFD1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09A8AFE1C17EBB6008E18CE /* Debug */,
+				C09A8AFF1C17EBB6008E18CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C09A8B001C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09A8B011C17EBB6008E18CE /* Debug */,
+				C09A8B021C17EBB6008E18CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C09A8ACA1C17EBB6008E18CE /* Project object */;
+}
