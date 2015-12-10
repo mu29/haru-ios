@@ -76,14 +76,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="혹시 선생님으로 이용하시는 건가요?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gD-Ac-eoX">
-                                <rect key="frame" x="87" y="197" width="427" height="36"/>
+                                <rect key="frame" x="87" y="230" width="427" height="36"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eoA-fR-jdk">
-                                <rect key="frame" x="20" y="241" width="560" height="44"/>
+                                <rect key="frame" x="20" y="274" width="560" height="44"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfT-Pp-Sph">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="44"/>
@@ -126,7 +126,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4r-ay-H1Y">
-                                <rect key="frame" x="20" y="293" width="560" height="44"/>
+                                <rect key="frame" x="20" y="326" width="560" height="44"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4D-lM-U9W">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="44"/>
@@ -174,13 +174,13 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="c4r-ay-H1Y" secondAttribute="trailing" id="01X-TU-3tA"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="0gD-Ac-eoX" secondAttribute="trailing" constant="20" id="4ng-iI-MYM"/>
+                            <constraint firstItem="0gD-Ac-eoX" firstAttribute="centerY" secondItem="UAw-ro-Kq6" secondAttribute="centerY" constant="-52" id="H0X-GX-YT9"/>
                             <constraint firstItem="0gD-Ac-eoX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="UAw-ro-Kq6" secondAttribute="leadingMargin" constant="20" id="IAK-e1-ETG"/>
                             <constraint firstItem="0gD-Ac-eoX" firstAttribute="centerX" secondItem="UAw-ro-Kq6" secondAttribute="centerX" id="LFV-1f-eMp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eoA-fR-jdk" secondAttribute="trailing" id="NFr-93-77G"/>
                             <constraint firstAttribute="leadingMargin" secondItem="c4r-ay-H1Y" secondAttribute="leading" id="OYh-ok-fAv"/>
                             <constraint firstItem="c4r-ay-H1Y" firstAttribute="top" secondItem="vfT-Pp-Sph" secondAttribute="bottom" constant="8" id="U2c-U2-vzw"/>
                             <constraint firstItem="eoA-fR-jdk" firstAttribute="top" secondItem="0gD-Ac-eoX" secondAttribute="bottom" constant="8" id="Vw2-hg-3mz"/>
-                            <constraint firstItem="0gD-Ac-eoX" firstAttribute="top" secondItem="JdM-MW-OVn" secondAttribute="bottom" constant="177" id="h0g-T2-e7a"/>
                             <constraint firstAttribute="leadingMargin" secondItem="eoA-fR-jdk" secondAttribute="leading" id="mCD-gi-mAz"/>
                         </constraints>
                     </view>
