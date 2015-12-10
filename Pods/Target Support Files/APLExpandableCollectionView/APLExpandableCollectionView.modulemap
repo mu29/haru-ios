@@ -1,0 +1,6 @@
+framework module APLExpandableCollectionView {
+  umbrella header "APLExpandableCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0225BFC1C191FFB00C936FF /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0225BFB1C191FFB00C936FF /* LocationCell.swift */; };
+		C0225BFE1C1921A400C936FF /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0225BFD1C1921A400C936FF /* LocationViewController.swift */; };
 		C09A8AD61C17EBB6008E18CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */; };
-		C09A8AD81C17EBB6008E18CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AD71C17EBB6008E18CE /* ViewController.swift */; };
+		C09A8AD81C17EBB6008E18CE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AD71C17EBB6008E18CE /* WelcomeViewController.swift */; };
 		C09A8ADB1C17EBB6008E18CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A8AD91C17EBB6008E18CE /* Main.storyboard */; };
 		C09A8ADD1C17EBB6008E18CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */; };
 		C09A8AE01C17EBB6008E18CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A8ADE1C17EBB6008E18CE /* LaunchScreen.storyboard */; };
 		C09A8AEB1C17EBB6008E18CE /* HaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AEA1C17EBB6008E18CE /* HaruTests.swift */; };
 		C09A8AF61C17EBB6008E18CE /* HaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8AF51C17EBB6008E18CE /* HaruUITests.swift */; };
+		C09A8B041C180B7A008E18CE /* TeacherSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8B031C180B7A008E18CE /* TeacherSignupViewController.swift */; };
+		C09A8B401C181509008E18CE /* CALayer+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8B3F1C181509008E18CE /* CALayer+Additions.swift */; };
+		C09A8B441C1818EB008E18CE /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8B431C1818EB008E18CE /* GenderViewController.swift */; };
+		C09A8B461C18282F008E18CE /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8B451C18282F008E18CE /* TransparentNavigationController.swift */; };
+		C09A8B481C182E2C008E18CE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A8B471C182E2C008E18CE /* UIViewExtensions.swift */; };
+		C0DAC63C1C18402B00F81F67 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DAC63B1C18402B00F81F67 /* EducationViewController.swift */; };
+		DB657FCCCF45D117426F8226 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F8C4FDC6F7EBBD04938A23 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40F8C4FDC6F7EBBD04938A23 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B223FC6D3D9C5FFF36029C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		901CD4720484B54EC4CD3BCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C0225BFB1C191FFB00C936FF /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		C0225BFD1C1921A400C936FF /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		C0225BFF1C19377D00C936FF /* Haru-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Haru-Bridging-Header.h"; sourceTree = "<group>"; };
 		C09A8AD21C17EBB6008E18CE /* Haru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C09A8AD71C17EBB6008E18CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09A8AD71C17EBB6008E18CE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C09A8ADA1C17EBB6008E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09A8ADF1C17EBB6008E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,12 @@
 		C09A8AF11C17EBB6008E18CE /* HaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09A8AF51C17EBB6008E18CE /* HaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaruUITests.swift; sourceTree = "<group>"; };
 		C09A8AF71C17EBB6008E18CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09A8B031C180B7A008E18CE /* TeacherSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherSignupViewController.swift; sourceTree = "<group>"; };
+		C09A8B3F1C181509008E18CE /* CALayer+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Additions.swift"; sourceTree = "<group>"; };
+		C09A8B431C1818EB008E18CE /* GenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		C09A8B451C18282F008E18CE /* TransparentNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		C09A8B471C182E2C008E18CE /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		C0DAC63B1C18402B00F81F67 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB657FCCCF45D117426F8226 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89465EDD8F36FC20315D89A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F8C4FDC6F7EBBD04938A23 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAA1D41F2AC2AC8A53BF05A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B223FC6D3D9C5FFF36029C0 /* Pods.debug.xcconfig */,
+				901CD4720484B54EC4CD3BCA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C09A8AC91C17EBB6008E18CE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				C09A8AE91C17EBB6008E18CE /* HaruTests */,
 				C09A8AF41C17EBB6008E18CE /* HaruUITests */,
 				C09A8AD31C17EBB6008E18CE /* Products */,
+				AAA1D41F2AC2AC8A53BF05A7 /* Pods */,
+				89465EDD8F36FC20315D89A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +139,20 @@
 			isa = PBXGroup;
 			children = (
 				C09A8AD51C17EBB6008E18CE /* AppDelegate.swift */,
-				C09A8AD71C17EBB6008E18CE /* ViewController.swift */,
+				C09A8AD71C17EBB6008E18CE /* WelcomeViewController.swift */,
 				C09A8AD91C17EBB6008E18CE /* Main.storyboard */,
 				C09A8ADC1C17EBB6008E18CE /* Assets.xcassets */,
 				C09A8ADE1C17EBB6008E18CE /* LaunchScreen.storyboard */,
 				C09A8AE11C17EBB6008E18CE /* Info.plist */,
+				C09A8B031C180B7A008E18CE /* TeacherSignupViewController.swift */,
+				C09A8B3F1C181509008E18CE /* CALayer+Additions.swift */,
+				C09A8B431C1818EB008E18CE /* GenderViewController.swift */,
+				C09A8B451C18282F008E18CE /* TransparentNavigationController.swift */,
+				C09A8B471C182E2C008E18CE /* UIViewExtensions.swift */,
+				C0DAC63B1C18402B00F81F67 /* EducationViewController.swift */,
+				C0225BFB1C191FFB00C936FF /* LocationCell.swift */,
+				C0225BFD1C1921A400C936FF /* LocationViewController.swift */,
+				C0225BFF1C19377D00C936FF /* Haru-Bridging-Header.h */,
 			);
 			path = Haru;
 			sourceTree = "<group>";
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C09A8AFA1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "Haru" */;
 			buildPhases = (
+				A442A2BA40023E2BD987FB93 /* Check Pods Manifest.lock */,
 				C09A8ACE1C17EBB6008E18CE /* Sources */,
 				C09A8ACF1C17EBB6008E18CE /* Frameworks */,
 				C09A8AD01C17EBB6008E18CE /* Resources */,
+				B3A2DE1B649E2E4763F6914F /* Embed Pods Frameworks */,
+				2601F267FC847277411A5AFF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +304,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2601F267FC847277411A5AFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A442A2BA40023E2BD987FB93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A2DE1B649E2E4763F6914F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C09A8ACE1C17EBB6008E18CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09A8AD81C17EBB6008E18CE /* ViewController.swift in Sources */,
+				C09A8AD81C17EBB6008E18CE /* WelcomeViewController.swift in Sources */,
+				C09A8B441C1818EB008E18CE /* GenderViewController.swift in Sources */,
+				C09A8B401C181509008E18CE /* CALayer+Additions.swift in Sources */,
+				C0DAC63C1C18402B00F81F67 /* EducationViewController.swift in Sources */,
 				C09A8AD61C17EBB6008E18CE /* AppDelegate.swift in Sources */,
+				C0225BFE1C1921A400C936FF /* LocationViewController.swift in Sources */,
+				C09A8B461C18282F008E18CE /* TransparentNavigationController.swift in Sources */,
+				C0225BFC1C191FFB00C936FF /* LocationCell.swift in Sources */,
+				C09A8B041C180B7A008E18CE /* TeacherSignupViewController.swift in Sources */,
+				C09A8B481C182E2C008E18CE /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,23 +504,30 @@
 		};
 		C09A8AFB1C17EBB6008E18CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B223FC6D3D9C5FFF36029C0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Haru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.Haru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Haru/Haru-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C09A8AFC1C17EBB6008E18CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901CD4720484B54EC4CD3BCA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Haru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.pedaling.Haru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Haru/Haru-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +598,7 @@
 				C09A8AFC1C17EBB6008E18CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09A8AFD1C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +607,7 @@
 				C09A8AFF1C17EBB6008E18CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09A8B001C17EBB6008E18CE /* Build configuration list for PBXNativeTarget "HaruUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +616,7 @@
 				C09A8B021C17EBB6008E18CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
